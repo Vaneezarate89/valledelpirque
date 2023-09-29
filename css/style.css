@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script&family=Indie+Flower&family=Lemonada:wght@300&family=Linden+Hill:ital@0;1&family=Marcellus&family=Merienda&family=Oooh+Baby&family=Pacifico&family=Paytone+One&family=Poppins:wght@300&family=Rubik+Moonrocks&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-----HEADER------*/
+
+header nav{
+    background: #F8F2ED ;  
+    font-family:'DM Sans', sans-serif;
+    text-align: center;
+    height: 130px;
+}
+
+.nav-link{
+    font-size: 12px;
+    color: rgb(4, 4, 4);
+    text-align: center;
+}
+
+.navbar img{
+    justify-content: center;
+}
+
+/*-------BODY------*/
+body{
+    background-color: #F8F2ED ;
+    font-family:'DM Sans', sans-serif;
+}
+
+/*-------MAIN INDEX------*/
+
+.carousel-item img{
+    height:600px; 
+} 
+
+.visiones{
+    display: flex;
+    background-color: #aba378;
+    justify-content: space-around;
+    color:#fff
+}
+
+.vision{
+    text-align: center;
+    padding: 30px;
+}
+
+.vision img{
+    width: 120px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+.cards{
+display: flex;
+justify-content: space-around;
+margin-top: 40px;
+}
+
+.grid-galeria {
+    width: auto;
+    margin: auto;
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-right: 40px;
+    margin-block-start: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 500px;
+    gap: 80px; 
+}
+
+    .grid-galeria p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .grid-galeria div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 10px 10px 16px -6px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 10px 10px 16px -6px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 10px 10px 16px -6px rgba(0, 0, 0, 0.2); }
+
+.nosotrosbanner{
+    background-color: #829067 ;
+    margin-top: 80px;
+}
+
+.nosotros{
+    display:flex;
+    color: #fff;
+    font-family: 'Marcellus', serif;
+    font-size: 18px;
+    text-align: center;
+    margin:80px;
+}
+
+.nosotros h4{
+font-size: 50px;
+margin-top: 80px;
+}
+
+.nosotros p{
+margin-top: 20px;
+font-family:'DM Sans', sans-serif;
+}
+
+.nosotrosbanner img{
+width: 300px;
+height: 300px;
+margin: 40px;
+}
+
+.propositos{
+    background-color:#cc723f; 
+    margin-top: 80px;
+    
+}
+
+.clasprop{
+display: flex;
+    color: #fff;
+    font-family: 'Marcellus', serif;
+    font-size: 18px;
+    text-align: center;
+    margin:20px;
+    margin-left: 10px;
+}
+
+.clasprop h4{
+font-size: 50px;
+margin-top: 80px;
+}
+
+.propositos p{
+padding: 30px;
+margin: 20px;
+font-family:'DM Sans', sans-serif;
+}
+
+.propositos img{
+width: 400px;
+height: 400px;
+margin: 20px;
+}
+
+.cuidados h2{
+    text-align: center;
+}
+
+.cuidados div {
+    margin: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: inline-block;
+ }
+
+
+.cuidados div div {
+        width: 355px;
+        height: 355px;
+        border: 3px solid gainsboro;
+        text-align: center;
+        background-color: whitesmoke;
+        font-size: 16px;
+        cursor: default;
+        transition: all 400ms ease;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
+
+.cuidados div div:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
+
+        .cuidados div div img {
+        margin-top: 5px;
+        width: 340px;
+        height: 340px;
+}
+
+.cuidados div div a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
