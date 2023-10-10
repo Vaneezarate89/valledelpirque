@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script&family=Indie+Flower&family=Lemonada:wght@300&family=Linden+Hill:ital@0;1&family=Marcellus&family=Merienda&family=Oooh+Baby&family=Pacifico&family=Paytone+One&family=Poppins:wght@300&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script&family=Indie+Flower&family=Lemonada:wght@300&family=Libre+Baskerville&family=Linden+Hill:ital@0;1&family=Marcellus&family=Merienda&family=Oooh+Baby&family=Pacifico&family=Paytone+One&family=Poppins:wght@300&family=Rubik+Moonrocks&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +41,9 @@ body{
     display: flex;
     background-color: #aba378;
     justify-content: space-around;
-    color: rgb(38, 36, 36);
+    color: #faf7f7;
+    font-family:'Libre Baskerville', serif;
+    font-size: 14px;
 }
 
 .vision{
@@ -52,7 +54,7 @@ body{
 }
 
 .vision p{
-    width: 300px;
+    width: 350px;
 }
 .vision img{
     width: 100px;
@@ -76,9 +78,9 @@ body{
 
     .grid-galeria p{
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:'Libre Baskerville', serif;
         color: black;
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 20px;
     }
 
@@ -115,8 +117,8 @@ font-family:'DM Sans', sans-serif;
 }
 
 .nosotrosbanner img{
-width: 230px;
-height: 230px;
+width: 350px;
+height: 250px;
 margin: 30px;
 }
 
@@ -148,28 +150,35 @@ font-family:'DM Sans', sans-serif;
 }
 
 .propositos img{
-width: 250px;
-height: 250px;
+width: 280px;
+height: 280px;
 margin: 20px;
+margin-left: 50px;
 }
 
+/*-------------HIDROLATOTERAPIA------------------*/
+
+.hidrolatos{
+    background-color: white;
+}
 .cuidados h2{
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #31322fcb;
 }
 
 .cuidados div {
     margin: 30px;
-    margin-left: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    display: inline-block;
+    display:inline-flexbox;
  }
 
 
 .cuidados div div {
-        width: 355px;
-        height: 355px;
+        width: 315px;
+        height: 315px;
         border: 3px solid gainsboro;
         text-align: center;
         background-color: whitesmoke;
@@ -184,13 +193,77 @@ margin: 20px;
 
         .cuidados div div img {
         margin-top: 5px;
-        width: 340px;
-        height: 340px;
+        width: 300px;
+        height: 300px;
 }
 
 .cuidados div div a {
-    font-size: 30px;
+    font-size: 16px;
     text-decoration: none;
     padding: 5px;
     color: black;
+    font-family: 'Libre Baskerville', serif;;
+}
+
+/*-----------PRODUCTOS DESCRIPCION--------------*/
+
+.rosafondo{
+    background-color: white;
+}
+.rosas{
+    display: flex;
+    justify-content:center;
+    margin: 50px;
+}
+
+.hr{
+    border: 0;
+border-top: 2px solid #999; 
+border-bottom: 2px solid #333;
+height:0;
+}
+.rosas div{
+    width: 50%;
+    text-align: justify;
+}
+
+.rosas p{
+    margin-left: 10px;
+    font-size: 36px;
+    color:#829067;
+}
+.rosas h2{
+    margin-left: 10px;
+    color:#829067;
+    font-size: 26px;
+    font-style: normal;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.foto{
+    width:340px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.rosas h3{
+    font-size: 14px;
+    margin-left: 11px;
+    color: grey;
+}
+
+.sublogo{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.descripcion{
+text-align: left;
+margin-left: 60px;
+}
+
+.descripcion h3{
+    text-align: center;
+    text-decoration:underline;
 }
