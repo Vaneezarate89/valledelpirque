@@ -18,7 +18,7 @@ header nav{
 .nav-link{
     font-size: 12px;
     color: rgb(4, 4, 4);
-    text-align: center;
+    text-align: justify;
 }
 
 .navbar img{
@@ -242,8 +242,9 @@ height:0;
 
 .foto{
     width:340px;
-    height: 400px;
+    height: 430px;
     margin-right: 40px;
+    border-color:black ;
 }
 
 .rosas h3{
@@ -265,5 +266,41 @@ margin-left: 60px;
 
 .descripcion h3{
     text-align: center;
-    text-decoration:underline;
+}
+
+
+
+
+/*-------FOOTER--------*/
+
+.footer{
+    background-color: white;
+}
+#mail{
+    text-decoration: none;
+    color: #333;
+}
+
+.contacto{
+    display: flex;
+    justify-content:space-evenly;
+    margin:20px;
+    background-color: white;
+}
+
+#contacto h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.formu{
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-family:'DM Sans', sans-serif;
+    box-sizing: border-box;
+
 }
