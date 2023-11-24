@@ -34,7 +34,7 @@ body{
 /*-------MAIN INDEX------*/
 
 .carousel-item img{
-    height:450px; 
+    height:65vh; 
 } 
 
 .visiones{
@@ -179,9 +179,8 @@ margin-left: 50px;
 .cuidados div div {
         width: 315px;
         height: 315px;
-        border: 3px solid gainsboro;
         text-align: center;
-        background-color: whitesmoke;
+        background-color:none;
         font-size: 16px;
         cursor: default;
         transition: all 400ms ease;
@@ -193,8 +192,8 @@ margin-left: 50px;
 
         .cuidados div div img {
         margin-top: 5px;
-        width: 300px;
-        height: 300px;
+        width: 315px;
+        height: 318px;
 }
 
 .cuidados div div a {
