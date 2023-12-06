@@ -38,6 +38,12 @@ body{
 background-size: contain;
 } 
 
+h5{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fdfbfa;
+    text-shadow: #333;
+}
+
 .visiones{
     display: flex;
     background-color: #aba378;
