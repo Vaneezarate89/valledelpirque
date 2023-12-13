@@ -12,7 +12,7 @@ header nav{
     background: #F8F2ED ;  
     font-family:'DM Sans', sans-serif;
     text-align: center;
-    height: 130px;
+    height: auto;
 }
 
 .nav-link{
@@ -274,6 +274,11 @@ margin-left: 60px;
     text-align: center;
 }
 /*-----------TODO--------------*/
+
+.cuidadoss{
+    background-color: white;
+}
+
 .cuidadoss h2{
     text-align: center;
     font-family: 'Libre Baskerville', serif;
