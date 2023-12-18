@@ -490,17 +490,31 @@ margin-top: 20px;
 @media screen and (max-width:630px) {
 .rosas{
     flex-wrap: wrap;
-    font-size: 14px;
+    font-size: 12px;
+    margin: auto;
+
 }
 
+.rosas p{
+    font-size: 14px;
+}
 .descripcion{
     font-size: 14px;
+    margin: 20px;
+    text-align: justify
 }
+
 .foto{
     object-fit: cover;
-    width: 150px;
-    height: 300px;
-    margin-right: 30px;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
     }   
 
+    .rosas h2{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
 }
